@@ -421,6 +421,13 @@
             </a>
         </ul>
       </div>
+      <div>
+        <h3 class="subscription-title">Підпишіться на розсилку</h3>
+        <div class="subscription-field">
+          <input type="mail" class="subscription-input" placeholder="E-mail">
+          <button type="submit" class="subscription-button">Підписатися</button>
+        </div>
+      </div>
     </div>
   </footer>
 
@@ -433,6 +440,35 @@
           <use href="./images/sprite.svg#icon-close"></use>
         </svg>
       </button>
+      <form class="form">
+        <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <div class="form-field">
+          <label for="name" class="form-label">Ім'я</label>
+          <input type="text" id="name" class="form-input">
+        </div>
+        <div class="form-field">
+          <label for="phone" class="form-label">Телефон</label>
+          <input type="tel" id="phone" class="form-input">
+        </div>
+        <div class="form-field">
+          <label for="mail" class="form-label">Пошта</label>
+          <input type="mail" id="mail" class="form-input">
+        </div>
+        <div class="form-field">
+          <label for="comment" class="form-label">Коментар</label>
+          <textarea name="coment" id="comment" cols="30" rows="6" placeholder="Введіть текст"
+            class="comment-input"></textarea>
+        </div>
+        <div class="form-field checkbox">
+          <input type="checkbox" id="checkbox" class="checkbox-input">
+          <label for="checkbox" class="checkbox-label">Погоджуюся з розсилкою та приймаю<a href=""><span class="">Умови
+                договору</span></a></label>
+        </div>
+        <div class="modal-subscription">
+          <button type="submit" class="modal-subscription-btn">Відправити</button>
+        </div>
+      </form>
+
     </div>
   </div>
 
